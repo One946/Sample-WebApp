@@ -1,0 +1,8 @@
+com/JavaWebApplication/Beans/RegisterBean.class
+com/JavaWebApplication/Beans/User.class
+com/JavaWebApplication/Model/insertUser.class
+com/JavaWebApplication/Model/MyDb.class
+com/JavaWebApplication/Controller/Prenota.class
+com/JavaWebApplication/Controller/Login.class
+com/JavaWebApplication/Controller/Register.class
+com/JavaWebApplication/Beans/PrenotaBean.class

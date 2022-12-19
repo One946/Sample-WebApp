@@ -1,0 +1,234 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.maven.reply.test:Sample-WebApp[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Sample-WebApp Maven Webapp 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-clean-plugin:3.1.0:clean[m [1m(default-clean)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] Deleting /home/one/eclipse-workspace/Sample-WebApp/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/one/eclipse-workspace/Sample-WebApp/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 8 source files to /home/one/eclipse-workspace/Sample-WebApp/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/one/eclipse-workspace/Sample-WebApp/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-war-plugin:3.2.2:war[m [1m(default-war)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] Packaging webapp
+[[1;34mINFO[m] Assembling webapp [Sample-WebApp] in [/home/one/eclipse-workspace/Sample-WebApp/target/Sample-WebApp]
+[[1;34mINFO[m] Processing war project
+[[1;34mINFO[m] Copying webapp resources [/home/one/eclipse-workspace/Sample-WebApp/src/main/webapp]
+[[1;34mINFO[m] Webapp assembled in [256 msecs]
+[[1;34mINFO[m] Building war: /home/one/eclipse-workspace/Sample-WebApp/target/Sample-WebApp.war
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-----------------< [0;36mcom.maven.reply.test:Sample-WebApp[0;1m >-----------------[m
+[[1;34mINFO[m] [1mBuilding Sample-WebApp Maven Webapp 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ war ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msonar-maven-plugin:3.9.1.2184:sonar[m [1m(default-cli)[m @ [36mSample-WebApp[0;1m ---[m
+[[1;34mINFO[m] User cache: /home/one/.sonar/cache
+[[1;34mINFO[m] SonarQube version: 9.7.1.62043
+[[1;34mINFO[m] Default locale: "en_US", source code encoding: "UTF-8"
+[[1;34mINFO[m] Load global settings
+[[1;34mINFO[m] Load global settings (done) | time=366ms
+[[1;34mINFO[m] Server id: 147B411E-AYT2ZLTsU8Bhw1Hd9B62
+[[1;34mINFO[m] User cache: /home/one/.sonar/cache
+[[1;34mINFO[m] Load/download plugins
+[[1;34mINFO[m] Load plugins index
+[[1;34mINFO[m] Load plugins index (done) | time=148ms
+[[1;34mINFO[m] Load/download plugins (done) | time=515ms
+[[1;34mINFO[m] Process project properties
+[[1;34mINFO[m] Process project properties (done) | time=12ms
+[[1;34mINFO[m] Execute project builders
+[[1;34mINFO[m] Execute project builders (done) | time=2ms
+[[1;34mINFO[m] Project key: my-app
+[[1;34mINFO[m] Base dir: /home/one/eclipse-workspace/Sample-WebApp
+[[1;34mINFO[m] Working dir: /home/one/eclipse-workspace/Sample-WebApp/target/sonar
+[[1;34mINFO[m] Load project settings for component key: 'my-app'
+[[1;34mINFO[m] Load project settings for component key: 'my-app' (done) | time=64ms
+[[1;33mWARNING[m] SCM provider autodetection failed. Please use "sonar.scm.provider" to define SCM of your project, or disable the SCM Sensor in the project settings.
+[[1;34mINFO[m] Load quality profiles
+[[1;34mINFO[m] Load quality profiles (done) | time=518ms
+[[1;34mINFO[m] Load active rules
+[[1;34mINFO[m] Load active rules (done) | time=4091ms
+[[1;34mINFO[m] Load analysis cache
+[[1;34mINFO[m] Load analysis cache (404) | time=155ms
+[[1;34mINFO[m] Load project repositories
+[[1;34mINFO[m] Load project repositories (done) | time=59ms
+[[1;34mINFO[m] Indexing files...
+[[1;34mINFO[m] Project configuration:
+[[1;34mINFO[m] 17 files indexed
+[[1;34mINFO[m] Quality profile for css: Sonar way
+[[1;34mINFO[m] Quality profile for java: Sonar way
+[[1;34mINFO[m] Quality profile for jsp: Sonar way
+[[1;34mINFO[m] Quality profile for xml: Sonar way
+[[1;34mINFO[m] ------------- Run sensors on module Sample-WebApp Maven Webapp
+[[1;34mINFO[m] Load metrics repository
+[[1;34mINFO[m] Load metrics repository (done) | time=65ms
+[[1;34mINFO[m] Sensor JavaSensor [java]
+[[1;34mINFO[m] Configured Java source version (sonar.java.source): 7
+[[1;34mINFO[m] JavaClasspath initialization
+[[1;34mINFO[m] JavaClasspath initialization (done) | time=3ms
+[[1;34mINFO[m] JavaTestClasspath initialization
+[[1;34mINFO[m] JavaTestClasspath initialization (done) | time=0ms
+[[1;34mINFO[m] Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+[[1;34mINFO[m] Using ECJ batch to parse 8 Main java source files with batch size 51 KB.
+[[1;34mINFO[m] Starting batch processing.
+[[1;34mINFO[m] The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+[[1;34mINFO[m] 100% analyzed
+[[1;34mINFO[m] Batch processing: Done.
+[[1;34mINFO[m] Did not optimize analysis for any files, performed a full analysis for all 8 files.
+[[1;34mINFO[m] No "Test" source files to scan.
+[[1;34mINFO[m] No "Generated" source files to scan.
+[[1;34mINFO[m] Sensor JavaSensor [java] (done) | time=1953ms
+[[1;34mINFO[m] Sensor JaCoCo XML Report Importer [jacoco]
+[[1;34mINFO[m] 'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+[[1;34mINFO[m] No report imported, no coverage information will be imported by JaCoCo XML Report Importer
+[[1;34mINFO[m] Sensor JaCoCo XML Report Importer [jacoco] (done) | time=4ms
+[[1;34mINFO[m] Sensor CSS Metrics [javascript]
+[[1;34mINFO[m] Sensor CSS Metrics [javascript] (done) | time=24ms
+[[1;34mINFO[m] Sensor CSS Rules [javascript]
+[[1;31mERROR[m] Error when running: 'node -v'. Is Node.js available during analysis?
+org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is Node.js available during analysis?
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:79)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.getVersion(NodeCommandBuilderImpl.java:203)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.checkNodeCompatibility(NodeCommandBuilderImpl.java:169)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.build(NodeCommandBuilderImpl.java:143)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.initNodeCommand(EslintBridgeServerImpl.java:201)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServer(EslintBridgeServerImpl.java:142)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServerLazily(EslintBridgeServerImpl.java:230)
+	at org.sonar.plugins.javascript.eslint.AbstractEslintSensor.execute(AbstractEslintSensor.java:68)
+	at org.sonar.plugins.javascript.eslint.CssRuleSensor.execute(CssRuleSensor.java:89)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:64)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:88)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:79)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.scan.SpringModuleScanContainer.doAfterStart(SpringModuleScanContainer.java:82)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:188)
+	at org.sonar.core.platform.SpringComponentContainer.execute(SpringComponentContainer.java:167)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scan(SpringProjectScanContainer.java:399)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scanRecursively(SpringProjectScanContainer.java:395)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.doAfterStart(SpringProjectScanContainer.java:364)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:188)
+	at org.sonar.core.platform.SpringComponentContainer.execute(SpringComponentContainer.java:167)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:135)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:188)
+	at org.sonar.core.platform.SpringComponentContainer.execute(SpringComponentContainer.java:167)
+	at org.sonar.batch.bootstrapper.Batch.doExecute(Batch.java:72)
+	at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:66)
+	at org.sonarsource.scanner.api.internal.batch.BatchIsolatedLauncher.execute(BatchIsolatedLauncher.java:46)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.sonarsource.scanner.api.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:60)
+	at com.sun.proxy.$Proxy28.execute(Unknown Source)
+	at org.sonarsource.scanner.api.EmbeddedScanner.doExecute(EmbeddedScanner.java:189)
+	at org.sonarsource.scanner.api.EmbeddedScanner.execute(EmbeddedScanner.java:138)
+	at org.sonarsource.scanner.maven.bootstrap.ScannerBootstrapper.execute(ScannerBootstrapper.java:65)
+	at org.sonarsource.scanner.maven.SonarQubeMojo.execute(SonarQubeMojo.java:108)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+Caused by: java.io.IOException: Cannot run program "node": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at org.sonarsource.nodejs.ProcessWrapperImpl.startProcess(ProcessWrapperImpl.java:39)
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:77)
+	... 59 common frames omitted
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:340)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:271)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 62 common frames omitted
+
+[[1;34mINFO[m] Hit the cache for 0 out of 0
+[[1;34mINFO[m] Miss the cache for 0 out of 0
+[[1;34mINFO[m] Sensor CSS Rules [javascript] (done) | time=7895ms
+[[1;34mINFO[m] Sensor C# Project Type Information [csharp]
+[[1;34mINFO[m] Sensor C# Project Type Information [csharp] (done) | time=2ms
+[[1;34mINFO[m] Sensor C# Analysis Log [csharp]
+[[1;34mINFO[m] Sensor C# Analysis Log [csharp] (done) | time=30ms
+[[1;34mINFO[m] Sensor C# Properties [csharp]
+[[1;34mINFO[m] Sensor C# Properties [csharp] (done) | time=0ms
+[[1;34mINFO[m] Sensor SurefireSensor [java]
+[[1;34mINFO[m] parsing [/home/one/eclipse-workspace/Sample-WebApp/target/surefire-reports]
+[[1;34mINFO[m] Sensor SurefireSensor [java] (done) | time=1ms
+[[1;34mINFO[m] Sensor HTML [web]
+[[1;34mINFO[m] Sensor HTML [web] (done) | time=215ms
+[[1;34mINFO[m] Sensor XML Sensor [xml]
+[[1;34mINFO[m] 2 source files to be analyzed
+[[1;34mINFO[m] 2/2 source files have been analyzed
+[[1;34mINFO[m] Sensor XML Sensor [xml] (done) | time=340ms
+[[1;34mINFO[m] Sensor Text Sensor [text]
+[[1;34mINFO[m] 17 source files to be analyzed
+[[1;34mINFO[m] 17/17 source files have been analyzed
+[[1;34mINFO[m] Sensor Text Sensor [text] (done) | time=19ms
+[[1;34mINFO[m] Sensor VB.NET Project Type Information [vbnet]
+[[1;34mINFO[m] Sensor VB.NET Project Type Information [vbnet] (done) | time=2ms
+[[1;34mINFO[m] Sensor VB.NET Analysis Log [vbnet]
+[[1;34mINFO[m] Sensor VB.NET Analysis Log [vbnet] (done) | time=36ms
+[[1;34mINFO[m] Sensor VB.NET Properties [vbnet]
+[[1;34mINFO[m] Sensor VB.NET Properties [vbnet] (done) | time=1ms
+[[1;34mINFO[m] ------------- Run sensors on project
+[[1;34mINFO[m] Sensor Analysis Warnings import [csharp]
+[[1;34mINFO[m] Sensor Analysis Warnings import [csharp] (done) | time=0ms
+[[1;34mINFO[m] Sensor Zero Coverage Sensor
+[[1;34mINFO[m] Sensor Zero Coverage Sensor (done) | time=13ms
+[[1;34mINFO[m] Sensor Java CPD Block Indexer
+[[1;34mINFO[m] Sensor Java CPD Block Indexer (done) | time=20ms
+[[1;34mINFO[m] SCM Publisher No SCM system was detected. You can use the 'sonar.scm.provider' property to explicitly specify it.
+[[1;34mINFO[m] CPD Executor Calculating CPD for 14 files
+[[1;34mINFO[m] CPD Executor CPD calculation finished (done) | time=42ms
+[[1;34mINFO[m] Analysis report generated in 123ms, dir size=212.8 kB
+[[1;34mINFO[m] Analysis report compressed in 55ms, zip size=65.5 kB
+[[1;34mINFO[m] Analysis report uploaded in 79ms
+[[1;34mINFO[m] ANALYSIS SUCCESSFUL, you can find the results at: http://localhost:9000/dashboard?id=my-app
+[[1;34mINFO[m] Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+[[1;34mINFO[m] More about the report processing at http://localhost:9000/api/ce/task?id=AYUQ01vOIOGqZEH4NRjJ
+[[1;34mINFO[m] Analysis total time: 20.918 s
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  29.189 s
+[[1;34mINFO[m] Finished at: 2022-12-14T14:29:25+01:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+
+-------TIMES------
+real	0m30,996s
+user	0m19,364s
+sys	0m18,731s
+

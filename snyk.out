@@ -1,0 +1,47 @@
+
+Testing /home/one/eclipse-workspace/Sample-WebApp ...
+
+ ✗ [Medium] Use of Hardcoded Credentials 
+   Path: src/main/java/com/JavaWebApplication/Model/MyDb.java, line 13 
+   Info: Do not hardcode passwords in code. Found password string
+
+ ✗ [High] SQL Injection 
+   Path: src/main/java/com/JavaWebApplication/Controller/Login.java, line 49 
+   Info: Unsanitized input from an HTTP parameter flows into executeQuery, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] SQL Injection 
+   Path: src/main/java/com/JavaWebApplication/Controller/Prenota.java, line 56 
+   Info: Unsanitized input from an HTTP parameter flows into executeUpdate, where it is used in an SQL query. This may result in an SQL Injection vulnerability.
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: src/main/java/com/JavaWebApplication/Controller/Register.java, line 55 
+   Info: Unsanitized input from an HTTP parameter flows into println, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: src/main/java/com/JavaWebApplication/Controller/Register.java, line 56 
+   Info: Unsanitized input from an HTTP parameter flows into println, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: src/main/java/com/JavaWebApplication/Controller/Register.java, line 57 
+   Info: Unsanitized input from an HTTP parameter flows into println, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+ ✗ [High] Cross-site Scripting (XSS) 
+   Path: src/main/java/com/JavaWebApplication/Controller/Register.java, line 58 
+   Info: Unsanitized input from an HTTP parameter flows into println, where it is used to render an HTML page returned to the user. This may result in a Cross-Site Scripting attack (XSS).
+
+
+✔ Test completed
+
+Organization:      one946
+Test type:         Static code analysis
+Project path:      /home/one/eclipse-workspace/Sample-WebApp
+
+Summary:
+
+  7 Code issues found
+  6 [High]   1 [Medium] 
+
+--------------TIME-----------------
+real	0m11,496s
+user	0m0,962s
+sys	0m0,696s
