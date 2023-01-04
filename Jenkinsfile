@@ -26,8 +26,9 @@ stage('Test') {
     //Sonarqube Test
     stage('Quality') {
         steps{
+            def mvn = tool 'Default Maven';
             withSonarQubeEnv('sonarqube') {
-              sh '${maven}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Prova'
+              sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Prova"
             }
         }
       }
