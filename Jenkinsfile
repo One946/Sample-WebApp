@@ -1,11 +1,46 @@
-node {
-  stage('SCM') {
-    checkout scm
-  }
-  stage('SonarQube Analysis') {
-    def mvn = tool 'JenkinsMaven';
-    withSonarQubeEnv() {
-      sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=my-app"
+pipeline {
+  agent any
+    tools {
+        // Install the Maven version configured as "M3" and add it to the path.
+        maven "JenkinsMaven"
+        snyk "SnykTool"
+        git "Default"
+    }
+  stages {
+    stage('Checkout') {
+      steps {
+        sh 'echo "checkout"'
+      }
+    }
+    stage('Build') {
+      steps {
+        sh 'mvn clean package'
+      }
+    }
+stage('Test') {
+      steps {
+        echo 'Testing...'
+        snykSecurity failOnIssues: false, snykInstallation: 'SnykTool', snykTokenId: 'Snyk Token'
+      }
+    }
+    //Sonarqube Test
+    stage('Quality') {
+        steps{
+            withSonarQubeEnv('sonarqube') {//,credentialsId:'OneMoreSonar') {
+              sh 'mvn sonar:sonar'
+            }
+        }
+      }
+    stage('Deploy') {
+      steps {
+        input 'Proceed with deployment?'
+        sh 'cd /opt/tomcat/bin'
+        sh './shutdown.sh'
+        sh 'rm -rf Sample-WebApp'
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Creds', path: '', url: 'http://localhost:8080/')], contextPath: 'Sample-WebApp', war: 'target/*.war'
+        //sh 'cp target/*.war /opt/tomcat/webapps'
+        sh './startup.sh'
+      }
     }
   }
 }
