@@ -26,7 +26,7 @@ stage('Test') {
     //Sonarqube Test
     stage('Quality') {
         steps{
-            withSonarQubeEnv() {//,credentialsId:'OneMoreSonar') {
+            withSonarQubeEnv('sonarqube') {
               sh '${maven}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Prova'
             }
         }
