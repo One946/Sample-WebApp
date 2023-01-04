@@ -26,7 +26,7 @@ stage('Test') {
     //Sonarqube Test
     stage('Quality') {
         steps{
-            withSonarQubeEnv('sonarqube') {//,credentialsId:'OneMoreSonar') {
+            withSonarQubeEnv('SonarScanner') {//,credentialsId:'OneMoreSonar') {
               sh 'mvn sonar:sonar'
             }
         }
