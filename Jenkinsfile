@@ -36,12 +36,12 @@ stage('Test') {
     stage('Deploy') {
       steps {
         input 'Proceed with deployment?'
-        sh 'cd /opt/tomcat/bin'
-        sh './shutdown.sh'
-        sh 'rm -rf Sample-WebApp'
+        sh 'cd /opt/tomcat/bin && ./shutdown.sh'
+       // sh './shutdown.sh'
+        sh 'rm -rf /opt/tomcat/webapps/Sample-WebApp*'
         deploy adapters: [tomcat9(credentialsId: 'Tomcat-Creds', path: '', url: 'http://localhost:8080/')], contextPath: 'Sample-WebApp', war: 'target/*.war'
         //sh 'cp target/*.war /opt/tomcat/webapps'
-        sh './startup.sh'
+        sh 'cd /opt/tomcat/bin && ./startup.sh'
       }
     }
   }
