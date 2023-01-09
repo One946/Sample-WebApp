@@ -25,8 +25,8 @@ stage('Test') {
     }
     //Sonarqube Test
     stage('Quality') {
-        def mvn = tool 'JenkinsMaven';
-        steps{          
+        steps{
+            def mvn = tool 'JenkinsMaven';
             withSonarQubeEnv( installationName: 'SonarQubeConnection' ,credentialsId: 'SonarQubeToken') {
                 sh "${mvn}/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Prova"
             }
