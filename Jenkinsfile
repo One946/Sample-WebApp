@@ -29,7 +29,7 @@ stage('Test') {
             //def mvn = tool 'JenkinsMaven';
             sh 'pwd'
             withSonarQubeEnv( installationName: 'SonarQubeConnection' ,credentialsId: 'SonarQubeToken') {
-                sh "$/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/JenkinsMaven/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Prova"
+                sh "/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/JenkinsMaven/bin/mvn clean verify sonar:sonar -Dsonar.projectKey=Prova"
             }
         }
       }
