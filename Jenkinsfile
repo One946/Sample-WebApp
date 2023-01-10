@@ -37,12 +37,11 @@ stage('Test') {
       steps {
         input 'Proceed with deployment?'
         //sh 'cd /opt/tomcat/bin && ./shutdown.sh'
-       // sh './shutdown.sh'
-        sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp/'
-        sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp.war'
+        //sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp/'
+        //sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp.war'
         // deploy adapters: [tomcat9(credentialsId: 'Tomcat-Creds', path: '', url: 'http://localhost:8080/')], contextPath: 'Sample-WebApp', war: 'target/*.war'
         deploy adapters: [tomcat9(credentialsId: 'Tomcat-Admin-Cred', path: '', url: 'http://localhost:8080')], contextPath: 'Sample-WebApp', war: 'target/Sample-WebApp.war'
-        sh 'cd /opt/tomcat/bin && ./startup.sh'
+        //sh 'cd /opt/tomcat/bin && ./startup.sh'
       }
     }
   }
