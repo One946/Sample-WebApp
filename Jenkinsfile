@@ -35,6 +35,7 @@ stage('Test') {
       }
     stage('Deploy') {
       steps {
+        emailext body: 'Please check the SonarQube and Snyk Reports, to assess the found vulnerabilities using SAST, and decide to Approve or Reject the deployment of the artifact into production.', recipientProviders: [buildUser()], subject: 'Sonarqube and Snyk Reports', to: 'gius.dagostino@reply.it'
         input 'Proceed with deployment?'
         //sh 'cd /opt/tomcat/bin && ./shutdown.sh'
         //sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp/'
