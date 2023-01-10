@@ -36,7 +36,7 @@ stage('Test') {
     stage('Deploy') {
       steps {
         input 'Proceed with deployment?'
-        sh 'cd /opt/tomcat/bin && ./shutdown.sh'
+        //sh 'cd /opt/tomcat/bin && ./shutdown.sh'
        // sh './shutdown.sh'
         sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp/'
         sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp.war'
