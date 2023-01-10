@@ -41,8 +41,7 @@ stage('Test') {
         sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp/'
         sh 'sudo rm -rf /opt/tomcat/webapps/Sample-WebApp.war'
         // deploy adapters: [tomcat9(credentialsId: 'Tomcat-Creds', path: '', url: 'http://localhost:8080/')], contextPath: 'Sample-WebApp', war: 'target/*.war'
-        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Creds', path: '', url: 'http://localhost:8080/')], contextPath: null, war: 'target/Sample-WebApp.war'
-        //sh 'cp target/*.war /opt/tomcat/webapps'
+        deploy adapters: [tomcat9(credentialsId: 'Tomcat-Creds', path: '', url: 'http://localhost:8080')], contextPath: 'Sample-WebApp', war: 'target/Sample-WebApp'        //sh 'cp target/*.war /opt/tomcat/webapps'
         sh 'cd /opt/tomcat/bin && ./startup.sh'
       }
     }
