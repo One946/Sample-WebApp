@@ -12,7 +12,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Sanit‡</a>
+    <a class="navbar-brand" href="#">Sanit√†</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +29,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Men˘
+            Men√π
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -51,7 +51,7 @@
 </nav>
 
      <main role="main" class="inner cover">
-        <h1 class="cover-heading" style="color:white">Benvenuto nel portale Sanit‡</h1>
+        <h1 class="cover-heading" style="color:white">Benvenuto nel portale Sanit√† 10-1-2023</h1>
         <p class="lead" style="color:white">Registrati, effettua il login e prenota le tue visite</p>
         <p class="lead" style="color:white">
           <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
