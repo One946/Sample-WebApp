@@ -7,7 +7,7 @@
 <sciprt src="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> <\script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
+<meta charset="UTF-8" />
 </header>
 <body class="text-center" style="background-color: #8fc4b7;"-->
 
